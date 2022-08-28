@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*navigation menu*/
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    background-color: #1F2937;    
+}
+
+.logo {
+    /*outline: 1px solid #fff;*/
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 32px;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+li {
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*hero header*/
+
+.hero-container {
+    background-color: #1F2937; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+}
+
+.content {
+    color: #fff;
+    width: 400px;
+    height: 250px;
+    margin-left: 220px;
+}
+
+.hero-header {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-container .button {
+    background-color: #3882f6;
+    width: 110px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: gray;
+    width: 500px;
+    height: 250px;
+    margin-right: 185px;
+}
+
+/*information content*/
+
+.information-content {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 420px;
+}
+
+.info-content {
+    font-size: 36px;
+    font-weight: 900;
+    margin-top: 32px;
+}
+
+.info-box {
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+.info-boxes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+
+}
+
+.box {
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+/*quote*/
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 400px;
+}
+
+.quote-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 55%;
+
+}
+
+.quote-section .author{
+    align-self: flex-end;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/*Call container*/
+
+.call-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.call-subcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #fff;
+    width: 75%;
+    height: 35%;
+}
+
+.call-subcontainer .action {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.call-subcontainer .sign-btn {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 110px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+/*footer*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #fff;
+    height: 80px;
+    margin-top: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
